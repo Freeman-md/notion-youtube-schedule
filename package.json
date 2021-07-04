@@ -1,0 +1,16 @@
+{
+  "name": "notion-youtube-schedule",
+  "version": "1.0.0",
+  "description": "Exploring the Notion's API using Node JS",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@notionhq/client": "^0.2.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1"
+  }
+}
