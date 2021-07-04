@@ -20,7 +20,10 @@ const getVideos = async () => {
 
     return {
       id: page.id,
-      title: page.properties.Name.title[0].text.content
+      title: page.properties.Name.title[0].text.content,
+      date: page.properties.Date.date.start,
+      tags: page.properties.Tags.rich_text[0].text.content,
+      description: page.properties.Description.rich_text[0].text.content
     }
   })
 
